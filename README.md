@@ -22,7 +22,7 @@ The goal of a sequence alignment algorithm is to find the best way to align two 
 
 A matrix of size **(sequence1 length × sequence2 length)** is initialized, assigning similarity scores for every substring comparison. The matrix is filled using the **recurrence relation**:  
 
-$F(i,j)=\max \begin{cases}  F(i-1,j-1) + s(i,j) \\  F(i-1,j) - \delta \\  F(i,j-1) - \delta  \end{cases}$
+$ F(i,j)=\max \begin{cases}  F(i-1,j-1) + s(i,j) \\  F(i-1,j) - \delta \\  F(i,j-1) - \delta  \end{cases} $
 
 where:  
 - $s(i,j)$ is the substitution score, retrieved using the **BLOSUM matrix** (which assigns similarity scores based on observed amino acid substitutions in homologous proteins).  

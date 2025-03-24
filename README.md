@@ -6,10 +6,10 @@ This repository contains Java implementations of two fundamental **sequence alig
 - **Smith-Waterman Algorithm** – Local alignment to find similar regions within sequences  
 
 ## 🔬 Bioinformatics Context  
+Sequence alignment is a key technique in bioinformatics, used to compare DNA, RNA, and protein sequences. These comparisons help identify functional, structural, or evolutionary relationships between biological sequences.
+The sequences such as **DNA, RNA, and proteins** are represented as strings composed of characters from specific alphabets:  
 
-In bioinformatics, sequences such as **DNA, RNA, and proteins** are represented as strings composed of characters from specific alphabets:  
-
-- **Nucleotide sequences** (DNA or RNA) use the alphabet {A, G, T, U}.  
+- **Nucleotide sequences** (DNA or RNA) use the alphabet {A, G, C, T/U}.  
 - **Protein sequences** use the alphabet of **amino acids**.  
 
 A crucial step in **sequence analysis** is determining similarity between biological sequences, which is achieved through **sequence alignment**. The algorithms implemented in this repository provide solutions for **global** (Needleman-Wunsch) and **local** (Smith-Waterman) alignment of genomic sequences.  

@@ -41,4 +41,13 @@ To reconstruct the **best alignment**, backtracking is performed:
   - `u` (Under) and `r` (Right) bits indicate whether the traceback path comes from below or the right.  
   - `abc` bits encode which of the **three neighboring cells** contributed to the maximum score.  
 
-This structure ensures efficient traceback and allows for accurate sequence alignment reconstruction.  
+This structure ensures efficient traceback and allows for accurate sequence alignment reconstruction.
+
+## 📂 Repository Structure  
+
+- `/GlobalAlign/` – Contains the implementation of the **Needleman-Wunsch** algorithm for **protein sequences**  
+- `/LocalAlign/` – Contains the implementation of the **Smith-Waterman** algorithm for **protein sequences** 
+- `/Nucleotides/` – Contains the implementation for **nucleotide sequences**
+Each folder contains the corresponding well-commented Java implementations
+
+📩 Feel free to explore, contribute, or reach out for any questions! 🚀
